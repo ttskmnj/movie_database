@@ -1,1 +1,1 @@
-web: gunicorn movie:app --log-file -
+web: gunicorn decathlon.wsgi --log-file -
